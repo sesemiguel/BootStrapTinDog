@@ -2,18 +2,24 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 3.5rem;
 }
 
 p {
   color: #8f8f8f;
+}
+
+@media (min-width: 540px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 #title {
@@ -21,10 +27,11 @@ p {
   color: #fff;
 }
 
-/* .title-container{
-  position: absolute;
-  z-index: -1;
-} */
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 
 .container-fluid {
   padding: 3% 15% 5% 15%;
@@ -53,8 +60,21 @@ p {
 }
 
 .title-image {
-  width: 60%;
+  width: 55%;
   position: absolute;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 35%;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
 
 #features {
@@ -110,5 +130,24 @@ p {
 
 .pricing-col {
   margin-bottom: 5%;
+}
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+#cta h1 {
+  font-size: 3.5rem;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.social-icons {
+  padding: 1%;
 }
