@@ -161,4 +161,9 @@ p {
 
 .social-icons {
   padding: 1%;
+  color: #ff8498;
+}
+
+.social-icons:hover{
+  color: #ff4c68;
 }
