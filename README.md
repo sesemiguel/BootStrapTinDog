@@ -23,4 +23,6 @@ This web-design contains the fundamentals of HTML, CSS, and BootStrap. Below are
 - Carousel
 - Cards
 
+Access the web design at https://sesemiguel.github.io/BootStrapTinDog/
+
 _This exercise was taken from The Complete 2020 Web Development Bootcamp by Angela Yu_
